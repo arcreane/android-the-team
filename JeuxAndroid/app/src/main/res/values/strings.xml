@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JeuxAndroid</string>
+    <string name="StartText">Bienvenu à toi jeune joueur</string>
+    <string name="StartButton">Commencer</string>
+    <string name="SelectPlayerText">Choisi ton pseudo</string>
+    <string name="SelectPalyerButton"> Jouer</string>
+    <string name="restartButton">Recommencer</string>
+    <string name="yourScore">Votre score est de :</string>
+</resources>

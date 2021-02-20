@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="@string/yourScore"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"/>
+
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/start_button_drawable"
+            android:text="@string/restartButton" />
+    </LinearLayout>
+
+</RelativeLayout>
