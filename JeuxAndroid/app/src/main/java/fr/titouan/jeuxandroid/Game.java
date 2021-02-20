@@ -149,7 +149,7 @@ public class Game extends View {
         return true;
     }
     protected  void chechkScore(int xtube){
-        if((xtube > tubeGap)&&(xtube<tubeGap+10)){
+        if((xtube > tubeGap)&&(xtube<tubeGap+tubeVelocity*1.5)){
             score+=1;
         }
     }

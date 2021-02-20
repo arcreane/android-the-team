@@ -18,7 +18,8 @@ public class gameOverActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int score = intent.getIntExtra("score",0);
         textScore = findViewById(R.id.score);
-        textScore.setText(String.valueOf(score));
+        String AfficheScore= "Votre score est de : "+score;
+        textScore.setText(AfficheScore);
         restartButton  = findViewById(R.id.restartButton);
         restartButton.setOnClickListener(new View.OnClickListener() {
             @Override
